@@ -61,7 +61,7 @@ If the modules which export your commands functionality conform to this, then it
 
 Please see [this file](./bin/cmd/index.js) for a working example.
 
-## Non-yarg tools?
+## Non yargs tools?
 
 If your tool wasn't written with yargs in mind, it may still work - the tool scans the source files for modules exposing the following fields;
 

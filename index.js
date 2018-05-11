@@ -133,14 +133,14 @@ const generate = {
           try{
 
             _tmp.write(`### Command`)
-            _tmp.write(` \`${htmlencode(command)}\``)
+            _tmp.write(` \`${command}\``)
             _tmp.write('')
 
             _tmp.write(`### Description`)
 
             if(cmd.symlink){
 
-              _tmp.write(`This command is an alias of \`${htmlencode(cmd.symlink)}${htmlencode(cmd.command)}\``)
+              _tmp.write(`This command is an alias of \`${cmd.symlink} ${cmd.command}\``)
               _tmp.write('')
 
               _debug(`Writing alias ${cmd.symlink}${cmd.command} out`)
