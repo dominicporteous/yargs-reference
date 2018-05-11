@@ -1,0 +1,27 @@
+{
+  "name": "yargs-reference",
+  "version": "1.0.2",
+  "description": "A tool to generate a command line reference from a yargs powered cli",
+  "bin": {
+    "yargs-reference": "bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:generate": "yargs-reference --overwrite --quiet && yargs-reference --overwrite --output html --quiet"
+  },
+  "main": "index.js",
+  "author": "dominicporteous <dominic@dom.gs>",
+  "license": "MIT",
+  "repository": "https://github.com/dominicporteous/yargs-reference",
+  "dependencies": {
+    "fs-extra": "^6.0.1",
+    "globby": "^8.0.1",
+    "htmlencode": "0.0.4",
+    "markdown-tableify": "0.0.4",
+    "marked": "^0.3.19",
+    "minilog": "^3.1.0",
+    "module-exists": "^0.2.1",
+    "path-sort": "^0.1.0",
+    "yargs": "^11.0.0"
+  }
+}
