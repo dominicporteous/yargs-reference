@@ -127,7 +127,7 @@ const generate = {
             cmd.command = ""
           }
 
-          let command = `${cmd.context ? `${cmd.context} ` : '' }${cmd.command}`
+          let command = (`${cmd.context ? `${cmd.context} ` : '' }${cmd.command}`).trim()
           cmd.desc = cmd.desc || cmd.description || '<no description>'
 
           try{

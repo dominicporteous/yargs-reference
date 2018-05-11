@@ -5,8 +5,7 @@ A tool to generate a command line reference from a yargs powered cli
 
 Its simple!
 
-```
-$ npm i yargs-reference -g
+```$ npm i yargs-reference -g
 $ cd /my/app/path
 $ yargs-reference
 
@@ -17,7 +16,8 @@ Note: This is not an exauhstive list, and entries may be missing or incomplete.
 
 ----
 
-## command
+### Command
+`command`
 
 ### Description
 My command does...
