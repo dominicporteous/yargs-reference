@@ -10,8 +10,9 @@
     "docs:generate": "yargs-reference --overwrite --quiet && yargs-reference --overwrite --output html --quiet"
   },
   "main": "index.js",
-  "author": "",
-  "license": "ISC",
+  "author": "dominicporteous <dominic@dom.gs>",
+  "license": "MIT",
+  "repository": "https://github.com/dominicporteous/yargs-reference",
   "dependencies": {
     "fs-extra": "^6.0.1",
     "globby": "^8.0.1",
