@@ -5,7 +5,9 @@ A tool to generate a command line reference from a yargs powered cli
 
 Its simple!
 
-```$ npm i yargs-reference -g
+```
+
+$ npm i yargs-reference -g
 $ cd /my/app/path
 $ yargs-reference
 
@@ -28,6 +30,7 @@ My command does...
 | option | This option does... - (Choices: only,these,are,valid) | string | false | valid |
 
 ----
+
 ```
 
 Please see the reference file for advanced information
